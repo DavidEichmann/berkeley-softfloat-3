@@ -51,7 +51,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "softfloat_types.h"
 
 #ifndef THREAD_LOCAL
-#define THREAD_LOCAL
+#define THREAD_LOCAL _Thread_local
 #endif
 
 /*----------------------------------------------------------------------------
